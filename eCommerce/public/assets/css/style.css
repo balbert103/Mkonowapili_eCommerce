@@ -1,0 +1,54 @@
+table.table-bordered{
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+table.table-bordered > thead > tr > th{
+    border:1px solid black;
+}
+
+table.table-bordered > tbody > tr > td{
+    border:1px solid black;
+}
+
+
+.form-group,
+.form-check {
+    margin-bottom: 10px;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.form-wrapper {
+    border-radius: 7px;
+}
+
+.form-wrapper label {
+    font-weight: bold;
+}
+
+.errors li {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+.errors ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .form-wrapper .text-right {
+        text-align: center !important;
+    }
+    
+    .form-wrapper .btn-primary {
+        display: block;
+        margin: 0 auto;
+    }
+}
